@@ -1,0 +1,54 @@
+/* Basic Selectors */
+
+p{
+color:green;
+}
+
+.highlight{
+color:orange;
+}
+
+#special{
+color:blue;
+}
+
+*{
+font-family:Arial;
+}
+
+/* Attribute selector */
+
+input[type="text"]{
+border:3px solid blue;
+}
+
+/* Combinator */
+
+div p{
+color:purple;
+}
+
+/* Pseudo classes */
+
+a:hover{
+color:red;
+}
+
+li:first-child{
+color:blue;
+}
+
+li:last-child{
+color:green;
+}
+
+/* Pseudo elements */
+
+p::first-letter{
+font-size:30px;
+color:red;
+}
+
+p::first-line{
+font-weight:bold;
+}
